@@ -1,5 +1,4 @@
 import OpenAI from "openai";
-import Config from './config.json';
 import {AzureLLM} from './llm.js';
 import {LLMSingleActionAgent} from './agent.js';
 import {REACT_PROMPT} from './prompt.js';
@@ -15,21 +14,21 @@ import {
 import {idbKeyval} from "@/agents/db";
 
 const model = new OpenAI({
-    apiKey: Config.apiKey,
+    apiKey: process.env.VUE_APP_OPENAI_API_KEY,
     baseURL: 'https://api.openai-proxy.com/v1',
     defaultQuery: {'api-version': '2023-03-15-preview'},
     defaultHeaders: {
-        'api-key': Config.apiKey,
+        'api-key': process.env.VUE_APP_OPENAI_API_KEY,
         "Content-Type": "application/json",
         "Access-Control-Allow-Origin": "*",
-        "Authorization": `Bearer ${Config.apiKey}`
+        "Authorization": `Bearer ${process.env.VUE_APP_OPENAI_API_KEY}`
     },
     dangerouslyAllowBrowser: true
 });
 
 const llm = new AzureLLM({
-    apiKey: Config.apiKey,
-    modelName: Config.model,
+    apiKey: process.env.VUE_APP_OPENAI_API_KEY,
+    modelName: process.env.VUE_APP_OPENAI_MODEL,
     model
 });
 
