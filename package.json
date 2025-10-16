@@ -1,0 +1,72 @@
+{
+  "name": "llm",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "3d-force-graph": "^1.73.3",
+    "core-js": "^3.8.3",
+    "d3": "^7.9.0",
+    "d3-cloud": "^1.2.7",
+    "d3-force-3d": "^3.0.5",
+    "d3-voronoi-map": "^2.1.1",
+    "d3-voronoi-treemap": "^1.1.2",
+    "d3-weighted-voronoi": "^1.1.3",
+    "docxtemplater": "^3.48.0",
+    "element-plus": "^2.7.6",
+    "esm": "^3.2.25",
+    "file-saver": "^2.0.5",
+    "fs": "^0.0.1-security",
+    "html-docx-js": "^0.3.1",
+    "html-to-image": "^1.11.11",
+    "idb": "^8.0.0",
+    "jlouvain": "^2.0.0",
+    "jszip-utils": "^0.1.0",
+    "openai": "^4.52.7",
+    "papaparse": "^5.4.1",
+    "pizzip": "^3.1.7",
+    "seedrandom": "^3.0.5",
+    "topojson-client": "^3.1.0",
+    "vega": "^5.30.0",
+    "vega-embed": "^6.26.0",
+    "vega-lite": "^5.19.0",
+    "vue": "^3.2.13",
+    "vue-router": "^4.4.0",
+    "vue-vega": "^1.0.0-alpha.13",
+    "webpack": "^5.93.0",
+    "xpack": "^0.1.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}

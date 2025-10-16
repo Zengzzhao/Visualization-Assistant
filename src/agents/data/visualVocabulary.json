@@ -1,0 +1,362 @@
+[
+    {  
+     "intention": "Deviation",
+     "description":"Emphasise variations (+/-) from a fixed reference point. Typically the reference point is zero but it can also be a target or a long-term average. Can also be used to show sentiment (positive/neutral/negative)."  ,
+     "Example FT uses":"Trade surplus/deficit, climate change",
+     "charts": [
+       {  
+        "chart_name": "Diverging bar",  
+        "description": "A simple standard bar chart that can handle both negative and positive magnitude values.",
+        "sketch": "Diverging bar.png"    
+       }  ,{
+        "chart_name": "Diverging stacked bar",  
+        "description": "Perfect for presenting survey results which involve sentiment (eg disagree/neutral/agree).",
+        "sketch": "Diverging stacked bar.png"  
+       },{
+        "chart_name": "Spine",  
+        "description": "Splits a single value into two contrasting components (eg male/female).",
+        "sketch": "Spine.png"  
+       },{
+        "chart_name": "Surplus_deficit filled line",  
+        "description": "The shaded area of these charts allows a balance to be shown – either against a baseline or between two series.",
+        "sketch": "Surplus_deficit filled line.png"  
+       }
+    ]
+    },{
+    "intention": "Correlation",
+     "description":"Show the relationship between two or more variables. Be mindful that, unless you tell them otherwise, many readers will assume the relationships you show them to be causal (i.e. one causes the other)."  ,
+     "Example FT uses":"Inflation and unemployment, income and life expectancy",
+     "charts": [
+       {  
+        "chart_name": "Scatterplot",  
+        "description": "The standard way to show the relationship between two continuous variables, each of which has its own axis.",
+        "sketch": "Scatterplot.png"    
+       }  ,{
+        "chart_name": "Column + line timeline",  
+        "description": "A good way of showing the relationship between an amount (columns) and a rate (line).",
+        "sketch": "Column line + timeline.png"  
+       },{
+        "chart_name": "Connected scatterplot",  
+        "description": "Usually used to show how the relationship between 2 variables has changed over time. ",
+        "sketch": "Connected scatterplot.png"  
+       },{
+        "chart_name": "Bubble",  
+        "description": "Like a scatterplot, but adds additional detail by sizing the circles according to a third variable.",
+        "sketch": "Bubble.png"  
+       },{
+        "chart_name": "XY heatmap",  
+        "description": "A good way of showing the patterns between 2 categories of data, less e ective at showing fine differences in amounts.",
+        "sketch": "XY heatmap.png" 
+       }
+    ]
+    },{
+     "intention": "Ranking",
+     "description":"Use where an item’s position in an ordered list is more important than its absolute or relative value. Don’t be afraid to highlight the points of interest."  ,
+     "Example FT uses":"Wealth, deprivation, league tables, constituency election results",
+     "charts": [
+       {  
+        "chart_name": "Ordered bar",  
+        "description": "Standard bar charts display the ranks of values much more easily when sorted into order.",
+        "sketch": "Ordered bar.png"    
+       }  ,{
+        "chart_name": "Ordered column",  
+        "description": "See above.",
+        "sketch": "Ordered column.png"  
+       },{
+        "chart_name": "Ordered proportional symbol",  
+        "description": "Use when there are big variations between values and/or seeing fine di erences between data is not so important.",
+        "sketch": "Ordered proportional symbol.png"  
+       },{
+        "chart_name": "Dot strip plot",  
+        "description": "Dots placed in order on a strip are a space-efficient method of laying out ranks across multiple categories.",
+        "sketch": "Dot strip plot.png"  
+       },{
+        "chart_name": "Slope",  
+        "description": "Perfect for showing how ranks have changed over time or vary between categories.",
+        "sketch": "Slope.png" 
+       },{
+        "chart_name": "Lollipop",  
+        "description": "Lollipops draw more attention to the data value than standard bar/column and can also show rank and value e ectively.",
+        "sketch": "Lollipop.png"  
+       },{
+        "chart_name": "Bump",  
+        "description": "Effective for showing changing rankings across multiple dates. For large datasets, consider grouping lines using colour.",
+        "sketch": "Bump.png" 
+       }
+    ]
+    },{
+        "intention": "Distribution",
+     "description":"Show values in a dataset and how often they occur. The shape (or ‘skew’) of a distribution can be a memorable way of highlighting the lack of uniformity or equality in the data.",
+     "Example FT uses":"Income distribution, population (age/sex) distribution, revealing inequality",
+     "charts": [
+       {  
+        "chart_name": "Histogram",  
+        "description": "The standard way to show a statistical distribution - keep the gaps between columns small to highlight the ‘shape’ of the data.",
+        "sketch": "Histogram.png"    
+       }  ,{
+        "chart_name": "Dot plot",  
+        "description": "A simple way of showing the change or range (min/max) of data across multiple categories.",
+        "sketch": "Dot plot.png"  
+       },{
+        "chart_name": "Dot strip plot",  
+        "description": "Good for showing individual values in a distribution, can be a problem when too many dots have the same value.",
+        "sketch": "Dot strip plot.png"  
+       },{
+        "chart_name": "Barcode plot",  
+        "description": "Like dot strip plots, good for displaying all the data in a table, they work best when highlighting individual values.",
+        "sketch": "Barcode plot.png"  
+       },{
+        "chart_name": "Boxplot",  
+        "description": "Summarise multiple distributions by showing the median (centre) and range of the data",
+        "sketch": "Boxplot.png"  
+       },{
+        "chart_name": "Violin plot",  
+        "description": "Similar to a box plot but more e ective with complex distributions (data that cannot be summarised with simple average).",
+        "sketch": "Violin plot.png"  
+       },{
+        "chart_name": "Population pyramid",  
+        "description": "A standard way for showing the age and sex breakdown of a population distribution; e ectively, back to back histograms.",
+        "sketch": "Population pyramid.png"  
+       },{
+        "chart_name": "Cumulative curve",  
+        "description": "A good way of showing how unequal a distribution is: y axis is always cumulative frequency, x axis is always a measure.",
+        "sketch": "Cumulative curve.png"  
+       },{
+        "chart_name": "Frequency polygons",  
+        "description": "For displaying multiple distributions of data. Like a regular line chart, best limited to a maximum of 3 or 4 datasets.",
+        "sketch": "Frequency polygons.png"  
+       },{
+        "chart_name": "Beeswarm",  
+        "description": "Use to emphasise individual points in a distribution. Points can be sized to an additional variable. Best with medium- sized datasets",
+        "sketch": "Beeswarm.png"  
+       }
+    ]
+   },{
+      "intention": "Change over Time",
+     "description":"Give emphasis to changing trends. These can be short (intra-day) movements or extended series traversing decades or centuries: Choosing the correct time period is important to provide suitable context for the reader.",
+     "Example FT uses":"Share price movements, economic time series, sectoral changes in a market ",
+     "charts": [
+       {  
+        "chart_name": "Line",  
+        "description": "The standard way to show a changing time series. If data are irregular, consider markers to represent data points.",
+        "sketch": "Line.png"    
+       }  ,{
+        "chart_name": "Column",  
+        "description": "Columns work well for showing change over time - but usually best with only one series of data at a time.",
+        "sketch": "Column.png"  
+       },{
+        "chart_name": "Column + line timeline",  
+        "description": "A good way of showing the relationship over time between an amount (columns) and a rate (line).",
+        "sketch": "Column  line timeline.png"  
+       },{
+         "chart_name": "Slope",  
+         "description": "Good for showing changing data as long as the data can be simplified into 2 or 3 points without missing a key part of story.",
+         "sketch": "Slope.png"  
+        },{
+         "chart_name": "Area chart",  
+         "description": "Use with care – these are good at showing changes to total, but seeing change in very difficult.",
+         "sketch": "Area chart.png"  
+        },{
+         "chart_name": "Candlestick",  
+         "description": "Usually focused on day-to-day activity, these charts show opening/closing and high/low points of each day.",
+         "sketch": "Candlestick.png"  
+        },{
+         "chart_name": "Fan chart (projections)",  
+         "description": "Use to show the uncertainty in future projections - usually this grows the further forward to projection.",
+         "sketch": "Fan chart (projections).png"  
+        },{
+         "chart_name": "Connected scatterplot",  
+         "description": "A good way of showing changing data for two variables whenever there is a relatively clear pattern of progression.",
+         "sketch": "Connected scatterplot.png"  
+        },{
+         "chart_name": "Calendar heatmap",  
+         "description": "A great way of showing temporal patterns (daily, weekly, monthly) – at the expense of showing precision in quantity.",
+         "sketch": "Calendar heatmap.png"  
+        },{
+         "chart_name": "Priestley timeline",  
+         "description": "Great when date and duration are key elements of the story in the data.",
+         "sketch": "Priestley timeline.png"  
+        },{
+         "chart_name": "Circle timeline",  
+         "description": "Good for showing discrete values of varying size across multiple categories (eg earthquakes by continent).",
+         "sketch": "Circle timeline.png"  
+        },{
+         "chart_name": "Vertical timeline",  
+         "description": "Presents time on the Y axis. Good for displaying detailed time series that work especially well when scrolling on mobile.",
+         "sketch": "Vertical timeline.png"  
+        },{
+         "chart_name": "Seismogram",  
+         "description": "Another alternative to the circle timeline for showing series where there are big variations in the data.",
+         "sketch": "Seismogram.png"  
+        },{
+         "chart_name": "Streamgraph",  
+         "description": "A type of area chart; use when seeing changes in proportions over time is more important than individual values.",
+         "sketch": "Streamgraph.png"  
+        }
+    ]
+   },{
+      "intention": "Magnitude",
+     "description":"Show size comparisons. These can be relative (just being able to see larger/bigger) or absolute (need to see fine di erences). Usually these show a ‘counted’ number (for example, barrels, dollars or people) rather than a calculated rate or per cent.",
+     "Example FT uses":"Commodity production, market capitalisation, volumes in general",
+     "charts": [
+       {  
+        "chart_name": "Column",  
+        "description": "The standard way to compare the size of things. Must always start at 0 on the axis.",
+        "sketch": "Column.png"    
+       },{
+        "chart_name": "Bar",  
+        "description": "See above. Good when the data are not time series and labels have long category names.",
+        "sketch": "Bar.png"  
+       },{
+        "chart_name": "Paired column",  
+        "description": "As per standard column but allows for multiple series. Can become tricky to read with more than 2 series.",
+        "sketch": "Paired column.png"  
+       },{
+         "chart_name": "Paired bar",  
+         "description": "See above.",
+         "sketch": "Paired bar.png"  
+        },{
+         "chart_name": "Marimekko",  
+         "description": "A good way of showing the size and proportion of data at the same time – as long as the data are not too complicated. ",
+         "sketch": "Marimekko.png"  
+        },{
+         "chart_name": "Proportional symbol",  
+         "description": "Use when there are big variations between values and/or seeing fine di erences between data is not so important.",
+         "sketch": "Proportional symbol.png"  
+        },{
+         "chart_name": "Isotype (pictogram)",  
+         "description": "Excellent solution in some instances – use only with whole numbers (do not slice o an arm to represent a decimal).",
+         "sketch": "Isotype (pictogram).png"  
+        },{
+         "chart_name": "Lollipop",  
+         "description": "Lollipop charts draw more attention to the data value than standard bar/column – does not have to start at zero (but preferable).",
+         "sketch": "Lollipop.png"  
+        },{
+         "chart_name": "Radar",  
+         "description": "A space-efficient way of showing value of multiple variables– but make sure they are organised in a way that makes sense to reader.",
+         "sketch": "Radar.png"  
+        },{
+         "chart_name": "Parallel coordinates",  
+         "description": "An alternative to radar charts – again, the arrangement of the variables is important. Usually benefits from highlighting values.",
+         "sketch": "Parallel coordinates.png"  
+        },{
+         "chart_name": "Bullet",  
+         "description": "Good for showing a measurement against the context of a target or performance range.",
+         "sketch": "Bullet.png"  
+        },{
+         "chart_name": "Grouped symbol",  
+         "description": "An alternative to bar/column charts when being able to count data or highlight individual elements is useful.",
+         "sketch": "Grouped symbol.png"  
+        }
+    ]
+   },{
+      "intention": "Part-to-whole",
+     "description":"Show how a single entity can be broken down into its component elements. If the reader’s interest is solely in the size of the components, consider a magnitude-type chart instead.",
+     "Example FT uses":"Fiscal budgets, company structures, national election results",
+     "charts": [
+       {  
+        "chart_name": "Stacked column_bar",  
+        "description": "A simple way of showing part-to-whole relationships but can be difficult to read with more than a few components.",
+        "sketch": "Stacked column_bar.png"    
+       }  ,{
+        "chart_name": "Marimekko",  
+        "description": "A good way of showing the size and proportion of data at the same time – as long as the data are not too complicated.",
+        "sketch": "Marimekko.png"  
+       },{
+        "chart_name": "Pie",  
+        "description": "A common way of showing part-to-whole data – but be aware that it’s difficult to accurately compare the size of the segments.",
+        "sketch": "Pie.png"  
+       },{
+         "chart_name": "Donut",  
+         "description": "Similar to a pie chart – but the centre can be a good way of making information about the data (eg total).",
+         "sketch": "Donut.png"  
+        },{
+         "chart_name": "Treemap",  
+         "description": "Use for hierarchical part-to-whole relationships; can be difficult to read when there are many small segments.",
+         "sketch": "Treemap.png"  
+        },{
+         "chart_name": "Voronoi",  
+         "description": "A way of turning points into areas – any point within each area is closer to the central point than any other centroid.",
+         "sketch": "Voronoi.png"  
+        },{
+         "chart_name": "Arc",  
+         "description": "A hemicycle, often used for visualising parliamentary composition by number of seats.",
+         "sketch": "Arc.png"  
+        },{
+         "chart_name": "Gridplot",  
+         "description": "Good for showing % information, they work best when used on whole numbers and work well in small multiple layout form. ",
+         "sketch": "Gridplot.png"  
+        },{
+         "chart_name": "Venn",  
+         "description": "Generally only used for schematic representation.",
+         "sketch": "Venn.png"  
+        },{
+         "chart_name": "Waterfall",  
+         "description": "Can be useful for showing part-to-whole relationships where some of the components are negative.",
+         "sketch": "Waterfall.png"  
+        }
+    ]
+   },{
+      "intention": "Spatial",
+     "description":"Aside from locator maps only used when precise locations or geographical patterns in data are more important to the reader than anything else. ",
+     "Example FT uses":"Population density, natural resource locations, natural disaster risk/impact, catchment areas, variation in election results",
+     "charts": [
+       {  
+        "chart_name": "Basic choropleth (rate_ratio)",  
+        "description": "The standard approach for putting data on a map – should always be rates rather than totals and use a sensible base geography.",
+        "sketch": "Basic choropleth (rate_ratio).png"    
+       }  ,{
+        "chart_name": "Proportional symbol (count_magnitude)",  
+        "description": "Use for totals rather than rates  – be wary that small di erences in data will be hard to see.",
+        "sketch": "Proportional symbol (count_magnitude).png"  
+       },{
+        "chart_name": "Flow map",  
+        "description": "For showing unambiguous movement across a map.",
+        "sketch": "Flow map.png"  
+       },{
+         "chart_name": "Contour map",  
+         "description": "For showing areas of equal value on a map. Can use deviation colour schemes for showing +/- values",
+         "sketch": "Contour map.png"  
+        },{
+         "chart_name": "Equalised cartogram",  
+         "description": "Converting each unit on a map to a regular and equally-sized shape – good for representing voting regions with equal value.",
+         "sketch": "Equalised cartogram.png"  
+        },{
+         "chart_name": "Scaled cartogram (value)",  
+         "description": "Stretching and shrinking a map so that each area is sized according to a particular value.",
+         "sketch": "Scaled cartogram (value).png"  
+        },{
+         "chart_name": "Dot density",  
+         "description": "Used to show the location of individual events/locations – make sure to annotate any patterns the reader should see",
+         "sketch": "Dot density.png"  
+        },{
+         "chart_name": "Heat map",  
+         "description": "Grid-based data values mapped with an intensity colour scale. As choropleth map – but not snapped to an admin/political unit.",
+         "sketch": "Heat map.png"  
+        }
+    ]
+   },{
+      "intention": "Flow",
+     "description":"Show the reader volumes or intensity of movement between two or more states or conditions. These might be logical sequences or geographical locations.",
+     "Example FT uses":"Movement of funds, trade, migrants, lawsuits, information; relationship graphs.",
+     "charts": [
+       {  
+        "chart_name": "Sankey",  
+        "description": "Shows changes in flows from one condition to at least one other; good for tracing the eventual outcome of a complex process",
+        "sketch": "Sankey.png"    
+       } ,{
+        "chart_name": "Waterfall",  
+        "description": "Designed to show the sequencing of data through a flow process, typically budgets. Can include +/- components.",
+        "sketch": "Waterfall.png"  
+       },{
+         "chart_name": "Chord",  
+         "description": "A complex but powerful diagram which can illustrate 2-way flows (and net winner) in a matrix.",
+         "sketch": "Chord.png"  
+        },{
+         "chart_name": "Network",  
+         "description": "Used for showing the strength and inter-connectedness of relationships of varying types",
+         "sketch": "Network.png"  
+        }
+    ]
+   }
+]

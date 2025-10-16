@@ -1,0 +1,19 @@
+{
+    "describe": null,
+    "match_tasks": null,
+    "template": "在[min_year] 年至 [max_year]年之间，可视化邻域[top_num]个关键词的热度是如何变化的？",
+    "example": "在2000年2024年之间，可视化邻域最重要的前40个关键词的热度是如何变化的?",
+    "variants": [
+        "min_year = 2000",
+        "max_year = 2024",
+        "top_num = 40"
+    ],
+    "circumstances": [
+        "1.“领域”，翻译为数据所涉及的领域。",
+        "2.“过去二十年”，翻译为min_year=2004，max_year=2024",
+        "3.“近些年”，翻译为近十年：min_year=2014，max_year=2024",
+        "4.可视化最多可同时绘制并显示40张折线图，输入的关键词个数不得大于40"
+    ],
+    "type": "d3",
+    "explanation": "可视编码解释：该可视化展示了在2000年2024年之间，可视化邻域最重要的前40个关键词及其热度是如何变化的。其中，横坐标是时间，纵坐标是关键词的热度，一个折线图代表一个关键词的热度变化。\n\n结论和见解：\n对可视化邻域的研究和投入逐年增加：可以发现随时间推进paper总数呈增加的趋势，其中传统关键词“Interactive Visualization ”、“Information Visualization”和“Graph Visualization”是出现频率最高的关键词，除此之外“Volume Rendering”、“Texture Mapping”、“Shape Representation”等一直保持有较高热度，说明人们对可视化邻域的研究和投入逐年增加。\n多感官感知受到关注：随着时间推进， 过去热度较低的“Virtual Reality”、“Gesture Recognition”、“Tactile Perception”、“Motion Capture”、“Haptic Interfaces”等关键词，在最近几年热度显著增加。说明可视化邻域的研究方向在向多感官感知发展，不再局限于视觉传达。\n一些邻域研究已相对成熟：“Fluid Simulation”、“Shape Optimization”、“Mesh Refinement”等关键词热度在减弱，说明相关邻域研究已相对成熟，需要关注新的方向和技术。\n2020-2022年期间可视化邻域研究显著减少：值得注意的是，paper总数及大部分热词热度在2000年至2022年存在显著下降的情况，这可能与2000年的全球新冠疫情的影响有关，导致全球paper产出急剧减少，相关研究减缓。2022年之后，paper数与词热度逐渐恢复为疫情前水平。"
+}

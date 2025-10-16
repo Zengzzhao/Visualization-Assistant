@@ -1,0 +1,15 @@
+{
+    "describe": null,
+    "match_tasks": null,
+    "template": "可视化邻域提及最多的[top_num]个关键词，它们之间存在怎样的关联？",
+    "example": "可视化邻域提及最多的40个关键词，它们之间存在怎样的关联？",
+    "variants": [
+        "top_num = 40"
+    ],
+    "circumstances": [
+        "1.“领域”，翻译为数据所涉及的领域。",
+        "2.“最重要的关键词”，翻译为[top_num] = 20"
+    ],
+    "type": "d3",
+    "explanation": "可视编码解释：该可视化展现可视化邻域提及最多的40个关键词和它们之间存在的关联。其中，节点代表一个关键词，节点颜色代表社区检测后关键词所属的社区，连线代表关键词间具有一定的共现频率，连线的宽度代表共现的频率。\n\n结论和见解：\n可视化邻域的研究热词可大致分为四大版块：经过社区检查后的高热度关键词可分为，以Rendering词为中心的具体的可视化技术版块，以Interactive Visualization词为中心的可视化概念版块、以及分别依托于Visual Perception和Immersive Simulations的两个新技术版块。\nImmersive Simulations和Visual Perception为新技术发展创造条件：导向图中Immersive Simulations和Visual Perception作为中间节点，连接了传统可视化研究节点和新兴研究节点。这说明，传统可视化研究中的Immersive Simulations和Visual Perception分别引发了对新研究方向和新技术趋势的探索。"
+}

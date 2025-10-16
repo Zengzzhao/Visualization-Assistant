@@ -1,0 +1,63 @@
+{
+    "id": {
+        "type": "string",
+        "description": "唯一标识符，用于标识每篇文献或数据条目。"
+    },
+    "doi": {
+        "type": "string",
+        "description": "数字对象标识符（DOI），用于唯一标识电子文献或其他在线资源。"
+    },
+    "title": {
+        "type": "string",
+        "description": "文献的标题。"
+    },
+    "year": {
+        "type": "integer",
+        "description": "文献的出版年份，一个四位的整数。"
+    },
+    "authors": {
+        "type": "array",
+        "description": "一个数组，其中包含文献的所有作者的信息。每个作者对象包含以下字段：",
+        "items": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "description": "作者的唯一标识符。"
+                },
+                "name": {
+                    "type": "string",
+                    "description": "作者的姓名。"
+                },
+                "institution": {
+                    "type": "string",
+                    "description": "作者所属的机构。"
+                },
+                "country": {
+                    "type": "string",
+                    "description": "作者所在的国家缩写。"
+                }
+            }
+        }
+    },
+    "cited": {
+        "type": "integer",
+        "description": "该文献被引用的次数。"
+    },
+    "keywords": {
+        "type": "array",
+        "description": "一个数组，其中包含与文献相关的关键词。每个关键词是一个字符串，用于描述文献的主题或内容。"
+    },
+    "concepts": {
+        "type": "array",
+        "description": "一个数组，其中包含与文献相关的概念。每个概念是一个字符串，表示文献涉及的主要领域或主题。"
+    },
+    "references": {
+        "type": "array",
+        "description": "一个数组，其中包含该文献引用的其他文献的唯一标识符。每个引用是一个字符串，通常是另一个文献的唯一标识符。"
+    },
+    "abstract": {
+        "type": "string",
+        "description": "文献的摘要。通常是一个简短的文本，描述文献的主要内容、目的和结论。"
+    }
+}
